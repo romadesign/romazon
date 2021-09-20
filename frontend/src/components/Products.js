@@ -31,7 +31,8 @@ function Products () {
                    <div>
                    <div className="content-products">
                       <div className="products">
-                        {products.slice(0, 4).map((product) => (
+                      {/* {products.slice(0, 4).map((product) => ( */}
+                         {products.map((product) => (
                           <div key={product._id}>
                             <div className="product">
                             <div className="product-brand">{product.brand}</div>
